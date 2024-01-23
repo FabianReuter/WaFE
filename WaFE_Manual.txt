@@ -1,0 +1,13 @@
+----------- WaFE Manual -------------
+Version: 2024-01-23
+This document will be updated and expanded soon.
+
+Usage consists of three main steps:
+
+1) Calculate Wavefront evolution using WaFE_CalculateEvolution.py . This will save a rather large data file of "pickle" format.
+2) Open the previously saved data file and chose measurement points running WaFE_MeasureVelocityAtClickPoints.py . 
+	This will calculate the local shock front velocities by detecting the maximum sharpness from interfering fronts.
+	A file in Matlab mat format to store the results will be saved
+---- WaFE_MeasureVelocityAtClickPoints.py will be available online by 01. of Feb 2024 -----
+3) Open the mat file (for example using Matlab) and prepare results in desired form.
+
